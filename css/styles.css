@@ -1,6 +1,7 @@
-
+Пропиши стилі для body (font-family, color та background-color) Пропиши CSS-правила для скидання 
+дефолтного підкреслення для посилань та маркерів у списках.
 body {
-    font-family: Roboto; 
+    font-family: Roboto, Raleway,
 }
 .page-header-list {
     list-style: none;
