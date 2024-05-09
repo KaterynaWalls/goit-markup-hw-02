@@ -1,8 +1,51 @@
-Пропиши стилі для body (font-family, color та background-color) Пропиши CSS-правила для скидання 
-дефолтного підкреслення для посилань та маркерів у списках.
+
 body {
-    font-family: Roboto, Raleway,
+    font-family: Roboto, Raleway, sans-serif;
+    color: #434455;
 }
-.page-header-list {
-    list-style: none;
+.page-header {
+    background-color:#fff;
 }
+.header-logo{
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+}
+.header-logo-cursive{
+    text-transform: uppercase;
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 18px;
+}
+.menu-nav-list {
+list-style: none;
+}
+.menu-nav-list {
+font-weight: 500;
+font-size: 16px;
+line-height: 24px; 
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;}
+
+.features-h3 {
+font-weight: 500;
+font-size: 20px;
+color: #2e2f42;}
+.main-section {
+    background: #2e2f42;
+}
+.main-section-title {
+font-weight: 700;
+font-size: 56px;
+color: #fff;
+line-height: 60px; 
+line-height: 1.07143;
+letter-spacing: 0.02em;
+}
+.button-container {
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+font-weight: 700;
+font-size: 56px;}
