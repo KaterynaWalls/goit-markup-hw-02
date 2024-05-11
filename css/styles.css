@@ -158,12 +158,15 @@ line-height: 24px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-background-color: #FFFFFF;}
+
+}
 
 .section-team-list {
 list-style-type: none;
 }
-    
+.section-team-item {
+background-color: #FFFFFF
+    }
 .section-team-paragraph {
     font-weight: 400;
     font-size: 16px;
@@ -171,7 +174,7 @@ list-style-type: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;}
-    
+
 .section-portfolio-title {
 font-family: "Roboto", sans-serif;
 font-weight: 700;
