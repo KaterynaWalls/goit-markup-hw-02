@@ -8,7 +8,7 @@ background-color: #ffffff;
 background-color:#fff;
 }
 .header-logo{
-font-family: Raleway, sens-serif;
+font-family: Raleway, sans-serif;
 text-transform: uppercase;
 color: #4d5ae5;
 font-weight: 700;
@@ -17,7 +17,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 }
 .header-logo-cursive{
-font-family: Raleway, sens-serif;
+font-family: Raleway, sans-serif;
 text-transform: uppercase;
 color: #2e2f42;
 font-weight: 700;
@@ -203,7 +203,7 @@ text-transform: capitalize;
     color: #434455;}
    
     .footer-logo {
-    font-family: Raleway, sens-serif;
+    font-family: Raleway, sans-serif;
     text-transform: uppercase;
     color: #4d5ae5;
     font-weight: 700;
@@ -214,7 +214,7 @@ text-transform: capitalize;
     }
     
     .footer-logo-cursive{
-    font-family: Raleway, sens-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px; 
