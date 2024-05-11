@@ -8,7 +8,7 @@ background-color: #ffffff;
 background-color:#fff;
 }
 .header-logo{
-font-family: "Raleway", sens-serif;
+font-family: Raleway, sens-serif;
 text-transform: uppercase;
 color: #4d5ae5;
 font-weight: 700;
@@ -17,7 +17,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 }
 .header-logo-cursive{
-font-family: "Raleway", sens-serif;
+font-family: Raleway, sens-serif;
 text-transform: uppercase;
 color: #2e2f42;
 font-weight: 700;
@@ -98,7 +98,7 @@ letter-spacing: 0.02em;
 text-align: center;
 }
 .button-container {
-font-family: "Roboto", sans-serif;
+font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px; 
@@ -176,7 +176,7 @@ background-color: #FFFFFF
     color: #434455;}
 
 .section-portfolio-title {
-font-family: "Roboto", sans-serif;
+font-family: Roboto, sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 40px; 
@@ -203,7 +203,7 @@ text-transform: capitalize;
     color: #434455;}
    
     .footer-logo {
-    font-family: "Raleway", sens-serif;
+    font-family: Raleway, sens-serif;
     text-transform: uppercase;
     color: #4d5ae5;
     font-weight: 700;
