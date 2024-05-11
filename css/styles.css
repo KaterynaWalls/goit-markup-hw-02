@@ -42,6 +42,9 @@ color: #2e2f42;}
 .menu-nav-list a:hover {
     color: #404bbf
 }
+.menu-nav-list a:focus {
+    color: #404bbf
+}
 .menu-nav-item {
 font-weight: 500;
 font-size: 16px;
@@ -78,10 +81,7 @@ text-decoration: none;
 text-decoration-line: none;
 
 }
-.features-h3 {
-font-weight: 500;
-font-size: 20px;
-color: #2e2f42;}
+
 .main-section {
 background: #2e2f42;
 }
@@ -90,14 +90,25 @@ font-weight: 700;
 font-size: 56px;
 color: #fff;
 line-height: 60px; 
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
+text-align: center;
 }
 .button-container {
-
-background-color: #4d5ae5;
-font-weight: 700;
-font-size: 56px;}
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px; 
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+cursor: pointer;}
+.button-container a.hover {
+    background-color: #404bbf;
+}
+.button-container a.focus {
+    background-color: #404bbf;
+}
 .page-header-contacts {
 font-weight: 400;
 font-size: 16px;
@@ -105,7 +116,9 @@ line-height: 24px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;}
-.features-h3 {
+
+
+.features-title-item {
 font-weight: 500;
 font-size: 20px;
 line-height: 24px; 
@@ -124,25 +137,26 @@ color: #434455;
 background: #f4f4fd;  
 }
 
-.h2-title {
+.section-team-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 40px; 
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
+text-transform: capitalize;
 color: #2e2f42;}
 
 
-    .section-team-list-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px; 
-    line-height: 1.2;
-    
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.section-team-list-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 24px; 
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+background-color: #ffffff;
     }
-    .section-team-paragraph {
+.section-team-paragraph {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px; 
@@ -150,8 +164,17 @@ color: #2e2f42;}
     letter-spacing: 0.02em;
 
     color: #434455;}
-
-    .portfolio-h3-title {
+.section-portfolio-title {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px; 
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.portfolio-smaller-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px; 
