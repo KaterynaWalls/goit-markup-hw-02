@@ -102,11 +102,12 @@ line-height: 24px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-cursor: pointer;}
-.button-container a.hover {
+cursor: pointer;
+background-color: #4d5ae5;}
+.button-container:hover {
     background-color: #404bbf;
 }
-.button-container a.focus {
+.button-container:focus {
     background-color: #404bbf;
 }
 .page-header-contacts {
@@ -144,8 +145,8 @@ line-height: 40px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2e2f42;}
-
+color: #2e2f42;
+text-align: center;}
 
 .section-team-list-title {
 font-weight: 500;
@@ -154,7 +155,7 @@ line-height: 24px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-background-color: #ffffff;
+background-color: #FFFFFF;
     }
 .section-team-paragraph {
     font-weight: 400;
@@ -169,10 +170,11 @@ font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 40px; 
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 .portfolio-smaller-title {
     font-weight: 500;
@@ -190,8 +192,8 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #434455;}
    
-    .footer-logo{
-    font-family: Raleway, sens-serif;
+    .footer-logo {
+    font-family: "Raleway", sens-serif;
     text-transform: uppercase;
     color: #4d5ae5;
     font-weight: 700;
